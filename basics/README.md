@@ -1,1 +1,1 @@
-New project shell test
+New project shell tes encoret
