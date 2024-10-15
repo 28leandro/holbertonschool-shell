@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod +x create_dir.hello
+mkdir -m 751 dir_holberton
