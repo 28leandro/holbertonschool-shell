@@ -1,2 +1,2 @@
 #!/bin/bash 
-':' read -r -a path_dirs <<< "$PATH"     
+IFS= I ':' read -r -a path_dirs <<< "$PATH"     
