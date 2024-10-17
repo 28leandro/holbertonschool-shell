@@ -1,2 +1,2 @@
 #!/bin/bash 
-Number of directories in PATH: 11     
+echo "$PATH" | tr ':' '\n' | awk 'NF' | sort -u)       
