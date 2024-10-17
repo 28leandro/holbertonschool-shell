@@ -1,2 +1,2 @@
 #!/bin/bash 
-IFS= I ':' read -r -a path_dirs <<< "$PATH"     
+echo $PATH | tr ':' '\n' | wc -ls    
